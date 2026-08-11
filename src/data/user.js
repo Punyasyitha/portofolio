@@ -3,7 +3,7 @@ const INFO = {
 		title: "masyitha's Portofolio",
 		name: "Masyitha Fahra Nabila",
 		email: "masyithafahra@gmail.com",
-		logo: "../logo.jpeg",
+		logo: process.env.PUBLIC_URL + "/logo.jpeg",
 	},
 
 	socials: {
@@ -18,7 +18,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Masyitha Fahra Nabila",
+		title: "I'm Masyitha Fahra Nabila",
 		description:
 			"Informatics Engineering graduate with a background in web application development using Laravel and API integration. My interest in data grew through my final project — an Aspect-Based Sentiment Analysis using BERT to understand customer opinions more accurately. Now looking to bring both web development and data skills into a professional environment where I can keep growing.",
 	},
@@ -35,7 +35,7 @@ const INFO = {
 			title: "ISPLens (Final Project)",
 			description:
 				"Aspect-Based Sentiment Analysis system that analyzes customer opinions about Indonesian ISPs scraped from Instagram. Built with a custom conjunction-based segmentation to detect multiple aspects and sentiments within a single sentence, plus an interactive Next.js dashboard for visualizing results.",
-			logo: "/nextjs.png",
+			logo: process.env.PUBLIC_URL + "/nextjs.png",
 			linkText: "View Project",
 			link: "https://github.com/Punyasyitha/isplens",
 		},
@@ -44,7 +44,7 @@ const INFO = {
 			title: "Room Reservation (Group Project)",
 			description:
 				"RoomReserve is a web-based room reservation system that helps PENS students book and manage rooms outside regular class schedules. As Front-End Developer, I built the admin-facing management interface, including a dashboard for real-time room availability, active reservations, and booking activity.",
-			logo: "/laravel.png",
+			logo: process.env.PUBLIC_URL + "/laravel.png",
 			linkText: "View Project",
 			link: "https://github.com/Punyasyitha/reservation-room",
 		},
@@ -53,7 +53,7 @@ const INFO = {
 			title: "SafeShield (Final Project)",
 			description:
 				"Campus reporting system for sexual harassment and assault cases, designed to make the process safe, confidential, and easy to navigate for victims. Features include a trauma-informed reporting flow, status tracking, educational modules on rights and procedures (PPKS), and campus SSO integration.",
-			logo: "/laravel.png",
+			logo: process.env.PUBLIC_URL + "/laravel.png",
 			linkText: "View Project",
 			link: "https://up2k.pens.ac.id/",
 		},
@@ -62,7 +62,7 @@ const INFO = {
 			title: "MSJ Rekap Tagihan (Internship)",
 			description:
 				"Laravel-based system that automates bill recap report and receipt transaction recording for a company's administration. Features automatic tax and total billing calculations, plus a built-in link to official tax exchange rates.",
-			logo: "/laravel.png",
+			logo: process.env.PUBLIC_URL + "/laravel.png",
 			linkText: "View Project",
 			link: "https://devxampp8.spunindo.com/msjrekaptagihan/login",
 		},
@@ -71,7 +71,7 @@ const INFO = {
 			title: "Ready2Go (Group Project)",
 			description:
 				"Ready2Go is a mobile app that helps hikers split trip costs and camping necessities fairly among group members. As Front-End Developer, I turned Figma designs into functional screens using Dart and built the landing page with React JS.",
-			logo: "/react.png",
+			logo: process.env.PUBLIC_URL + "/react.png",
 			linkText: "View Project",
 			link: "https://play.google.com/store/apps/details?id=com.a2.ready2go",
 		},
