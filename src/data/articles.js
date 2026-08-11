@@ -33,7 +33,7 @@ function article_1() {
 			<React.Fragment>
 				<div className="article-content">
 					<img
-						src="/IES 2026.jpeg"
+						src={process.env.PUBLIC_URL + "/IES 2026.jpeg"}
 						alt="IES 2026"
 						className="ies-photo"
 					/>
@@ -102,7 +102,7 @@ function article_2() {
 			<React.Fragment>
 				<div className="article-content">
 					<img
-						src="/Intern PT MSJ.jpeg"
+						src={process.env.PUBLIC_URL + "/Intern PT MSJ.jpeg"}
 						alt="Internship at PT Multi Spunindo Jaya"
 						className="internship-photo"
 					/>
@@ -171,7 +171,7 @@ function article_3() {
 			<React.Fragment>
 				<div className="article-content">
 					<img
-						src="/Pemandu Gandhiwa.jpeg"
+						src={process.env.PUBLIC_URL + "/Pemandu Gandhiwa.jpeg"}
 						alt="Gandhiwa Guide of LKMM"
 						className="lkmm-photo"
 					/>
