@@ -1,5 +1,5 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faCertificate } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 
@@ -9,34 +9,40 @@ const Works = () => {
 	return (
 		<div className="works">
 			<Card
-				icon={faBriefcase}
-				title="Work"
+				icon={faCertificate}
+				title="Certificates"
 				body={
 					<div className="works-body">
 						<div className="work">
-							<img
-								src="./facebook.png"
-								alt="facebook"
-								className="work-image"
-							/>
-							<div className="work-title">Facebook</div>
-							<div className="work-subtitle">
-								Software Engineer
+							<div className="work-title">
+								Participation of IES 2026
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-subtitle">IEEE Indonesia Section & PENS</div>
+							<div className="work-duration">2026</div>
 						</div>
 
 						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
+							<div className="work-title">
+								Kementrian Hukum Republik Indonesia 
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-subtitle">SafeShield</div>
+							<div className="work-duration">2025</div>
+						</div>
+
+						<div className="work">
+							<div className="work-title">
+								IBM Data Analytics
+							</div>
+							<div className="work-subtitle">Introduction to Data Analytics</div>
+							<div className="work-duration">2025</div>
+						</div>
+
+						<div className="work">
+							<div className="work-title">
+								BNSP
+							</div>
+							<div className="work-subtitle">Certificate of Competence in Data Scientist</div>
+							<div className="work-duration">2024</div>
 						</div>
 					</div>
 				}

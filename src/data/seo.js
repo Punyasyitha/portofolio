@@ -2,36 +2,36 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Bachelor graduate in Informatics Engineering with a background in web application development using Laravel, along with experience building and testing API integrations using Postman to efficiently connect front-end and back-end systems. I deepened my interest in data through my final project, Aspect-Based Sentiment Analysis (ABSA) on an Internet Service Provider company, where I applied a BERT model and clause segmentation mechanism to analyze customer opinions more accurately and thoroughly. This combination of technical skills in web development and data analysis shapes my career interest in web development and data visualization. I am ready to bring these skills into a professional environment and continue growing within this dynamic industry.",
+		keywords: ["Masyitha"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Informatics Engineering graduate with a background in web application development using Laravel and API integration. My interest in data grew through my final project — an Aspect-Based Sentiment Analysis using BERT to understand customer opinions more accurately. Now looking to bring both web development and data skills into a professional environment where I can keep growing.",
+		keywords: ["Masyitha"],
 	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"A collection of moments that shaped my growth — from internships and leadership roles to academic milestones.",
+		keywords: ["Masyitha"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"A collection of things I've worked on — whether personal or group projects. Most are open-source, so feel free to explore the code, try them out, or reach out if you'd like to collaborate.",
+		keywords: ["Masyitha"],
 	},
 
 	{
 		page: "contact",
 		description:
 			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+		keywords: ["Masyitha"],
 	},
 ];
 

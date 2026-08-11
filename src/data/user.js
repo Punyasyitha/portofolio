@@ -1,83 +1,81 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "masyitha's Portofolio",
+		name: "Masyitha Fahra Nabila",
+		email: "masyithafahra@gmail.com",
+		logo: "../logo.jpeg",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/Punyasyitha",
+		linkedin: "https://www.linkedin.com/in/masyitha-fahra-nabila-0b09a1257/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Web Developer | Data & Analytics Enthusiast",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Bachelor graduate in Informatics Engineering with a background in web application development using Laravel, along with experience building and testing API integrations using Postman to efficiently connect front-end and back-end systems. I deepened my interest in data through my final project, Aspect-Based Sentiment Analysis (ABSA) on an Internet Service Provider company, where I applied a BERT model and clause segmentation mechanism to analyze customer opinions more accurately and thoroughly. This combination of technical skills in web development and data analysis shapes my career interest in web development and data visualization. I am ready to bring these skills into a professional environment and continue growing within this dynamic industry.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Masyitha Fahra Nabila",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Informatics Engineering graduate with a background in web application development using Laravel and API integration. My interest in data grew through my final project — an Aspect-Based Sentiment Analysis using BERT to understand customer opinions more accurately. Now looking to bring both web development and data skills into a professional environment where I can keep growing.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Every step has shaped how I think, lead, and build.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"A collection of moments that shaped my growth — from internships and leadership roles to academic milestones.",
 	},
 
 	projects: [
+
 		{
-			title: "Project 1",
+			title: "ISPLens (Final Project)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Aspect-Based Sentiment Analysis system that analyzes customer opinions about Indonesian ISPs scraped from Instagram. Built with a custom conjunction-based segmentation to detect multiple aspects and sentiments within a single sentence, plus an interactive Next.js dashboard for visualizing results.",
+			logo: "/nextjs.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Punyasyitha/isplens",
 		},
 
 		{
-			title: "Project 2",
+			title: "Room Reservation (Group Project)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"RoomReserve is a web-based room reservation system that helps PENS students book and manage rooms outside regular class schedules. As Front-End Developer, I built the admin-facing management interface, including a dashboard for real-time room availability, active reservations, and booking activity.",
+			logo: "/laravel.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Punyasyitha/reservation-room",
 		},
 
 		{
-			title: "Project 3",
+			title: "SafeShield (Final Project)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Campus reporting system for sexual harassment and assault cases, designed to make the process safe, confidential, and easy to navigate for victims. Features include a trauma-informed reporting flow, status tracking, educational modules on rights and procedures (PPKS), and campus SSO integration.",
+			logo: "/laravel.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://up2k.pens.ac.id/",
 		},
 
 		{
-			title: "Project 4",
+			title: "MSJ Rekap Tagihan (Internship)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Laravel-based system that automates bill recap report and receipt transaction recording for a company's administration. Features automatic tax and total billing calculations, plus a built-in link to official tax exchange rates.",
+			logo: "/laravel.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://devxampp8.spunindo.com/msjrekaptagihan/login",
 		},
 
 		{
-			title: "Project 5",
+			title: "Ready2Go (Group Project)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Ready2Go is a mobile app that helps hikers split trip costs and camping necessities fairly among group members. As Front-End Developer, I turned Figma designs into functional screens using Dart and built the landing page with React JS.",
+			logo: "/react.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://play.google.com/store/apps/details?id=com.a2.ready2go",
 		},
+
 	],
 };
 
